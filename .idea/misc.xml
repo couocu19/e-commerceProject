@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/eecommercell" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/E/pom.xml" />
+        <option value="$PROJECT_DIR$/e-commer/pom.xml" />
+        <option value="$PROJECT_DIR$/e-commerces/pom.xml" />
+        <option value="$PROJECT_DIR$/e-ecommereee/pom.xml" />
+        <option value="$PROJECT_DIR$/eee/pom.xml" />
+        <option value="$PROJECT_DIR$/ezz/pom.xml" />
+        <option value="$PROJECT_DIR$/sds/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">

@@ -6,8 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="e-commerce" />
+        <module name="eecommercell" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ecommerces" target="1.5" />
+      <module name="eecommereee" target="1.5" />
+      <module name="eee" target="1.5" />
+      <module name="eeeee" target="1.5" />
+      <module name="ezz" target="1.5" />
+      <module name="sds" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
