@@ -26,6 +26,8 @@
     <listener>
         <listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
     </listener>
+
+    <!--为了将web容器和spring容器进行整合的监听器-->
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
@@ -35,7 +37,6 @@
             classpath:applicationContext.xml
         </param-value>
     </context-param>
-
 
 
     <servlet>

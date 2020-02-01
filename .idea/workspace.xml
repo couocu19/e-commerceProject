@@ -4,9 +4,7 @@
     <list default="true" id="cc201766-b3d3-4d23-a000-77d9e87614a7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eecommercell/src/main/resources/applicationContext-datasource.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/resources/applicationContext-datasource.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eecommercell/src/main/resources/datasource.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/resources/datasource.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eecommercell/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eecommercell/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eecommercell/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,6 +23,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_DATA_SOURCES" value="true" />
@@ -41,25 +42,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eecommercell/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
+            <state relative-caret-position="55">
               <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eecommercell/src/main/resources/mmall.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eecommercell/src/main/resources/zfbinfo.properties">
+        <entry file="file://$PROJECT_DIR$/eecommercell/src/main/resources/logback.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="12" selection-start-line="12" selection-end-line="13" />
+            <state relative-caret-position="104">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -67,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eecommercell/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            <state relative-caret-position="442">
+              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -76,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eecommercell/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+            <state relative-caret-position="161">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="n#filter-mapping#0;n#web-app#0;n#!!top" />
               </folding>
@@ -88,24 +84,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eecommercell/src/main/resources/applicationContext-datasource.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-75">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="134">
+              <caret line="89" column="4" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
               <folding>
+                <element signature="n#bean#0;n#beans#0;n#!!top" />
                 <element signature="n#bean#1;n#beans#0;n#!!top" />
-                <element signature="e#1549#1572#0" expanded="true" />
-                <element signature="e#1610#1621#0" expanded="true" />
-                <element signature="e#1664#1680#0" expanded="true" />
-                <element signature="e#1723#1739#0" expanded="true" />
-                <element signature="e#1839#1858#0" expanded="true" />
-                <element signature="e#1927#1944#0" expanded="true" />
-                <element signature="e#2059#2074#0" expanded="true" />
-                <element signature="e#2178#2193#0" expanded="true" />
-                <element signature="e#2286#2301#0" expanded="true" />
-                <element signature="e#2464#2489#0" expanded="true" />
-                <element signature="e#2808#2842#0" expanded="true" />
                 <element signature="n#bean#2;n#beans#0;n#!!top" />
-                <element signature="n#bean#4;n#beans#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.0.RELEASE/spring-beans-5.2.0.RELEASE.jar!/org/springframework/beans/factory/config/PropertyPlaceholderConfigurer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-289">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -113,7 +107,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eecommercell/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
+            <state relative-caret-position="2340">
               <caret line="90" selection-start-line="90" selection-end-line="90" />
             </state>
           </provider>
@@ -131,17 +125,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eecommercell/src/main/resources/generatorConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1631">
+            <state relative-caret-position="1846">
               <caret line="71" column="40" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/pojo/Cart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-832">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="130">
+              <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -166,9 +160,11 @@
         <option value="$PROJECT_DIR$/eecommercell/pom.xml" />
         <option value="$PROJECT_DIR$/eecommercell/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/eecommercell/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/eecommercell/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/eecommercell/src/main/resources/datasource.properties" />
+        <option value="$PROJECT_DIR$/eecommercell/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/eecommercell/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/eecommercell/src/main/resources/applicationContext-datasource.xml" />
+        <option value="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/pojo/Cart.java" />
       </list>
     </option>
   </component>
@@ -215,6 +211,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -292,15 +289,6 @@
               <item name="eecommercell" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mappers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e-commerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-project" type="462c0819:PsiDirectoryNode" />
-              <item name="eecommercell" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -317,7 +305,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -327,10 +314,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.1541502" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -440,11 +427,13 @@
       <workItem from="1580376434825" duration="879000" />
       <workItem from="1580377319794" duration="298000" />
       <workItem from="1580392979692" duration="3895000" />
+      <workItem from="1580464495689" duration="3630000" />
+      <workItem from="1580552624773" duration="2597000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25420000" />
+    <option name="totallyTimeSpent" value="31647000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -456,10 +445,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497979" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2287793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -467,6 +455,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Problems" visible="true" weight="0.41740674" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.1681128" />
@@ -479,7 +468,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.0" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -595,34 +584,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eecommercell/src/main/resources/logback.xml">
+    <entry file="file://$PROJECT_DIR$/datasource.properties" />
+    <entry file="file://$PROJECT_DIR$/eecommercell/src/main/resources/mmall.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/pojo/Cart.java">
+    <entry file="file://$PROJECT_DIR$/eecommercell/src/main/resources/zfbinfo.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-832">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="312">
+          <caret line="12" selection-start-line="12" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eecommercell/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        <state relative-caret-position="442">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datasource.properties">
+    <entry file="file://$PROJECT_DIR$/eecommercell/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" selection-start-line="7" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eecommercell/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1631">
-          <caret line="71" column="40" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="40" />
+        <state relative-caret-position="2340">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
         </state>
       </provider>
     </entry>
@@ -633,50 +616,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eecommercell/pom.xml">
+    <entry file="file://$PROJECT_DIR$/eecommercell/src/main/resources/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        <state relative-caret-position="1846">
+          <caret line="71" column="40" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eecommercell/src/main/resources/applicationContext-datasource.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.0.RELEASE/spring-beans-5.2.0.RELEASE.jar!/org/springframework/beans/factory/config/PropertyPlaceholderConfigurer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="n#bean#1;n#beans#0;n#!!top" />
-            <element signature="e#1549#1572#0" expanded="true" />
-            <element signature="e#1610#1621#0" expanded="true" />
-            <element signature="e#1664#1680#0" expanded="true" />
-            <element signature="e#1723#1739#0" expanded="true" />
-            <element signature="e#1839#1858#0" expanded="true" />
-            <element signature="e#1927#1944#0" expanded="true" />
-            <element signature="e#2059#2074#0" expanded="true" />
-            <element signature="e#2178#2193#0" expanded="true" />
-            <element signature="e#2286#2301#0" expanded="true" />
-            <element signature="e#2464#2489#0" expanded="true" />
-            <element signature="e#2808#2842#0" expanded="true" />
-            <element signature="n#bean#2;n#beans#0;n#!!top" />
-            <element signature="n#bean#4;n#beans#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eecommercell/src/main/resources/mmall.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eecommercell/src/main/resources/zfbinfo.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="12" selection-start-line="12" selection-end-line="13" />
+        <state relative-caret-position="-289">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eecommercell/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        <state relative-caret-position="161">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="n#filter-mapping#0;n#web-app#0;n#!!top" />
           </folding>
@@ -685,8 +642,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eecommercell/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
+        <state relative-caret-position="55">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eecommercell/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eecommercell/src/main/resources/applicationContext-datasource.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="89" column="4" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
+          <folding>
+            <element signature="n#bean#0;n#beans#0;n#!!top" />
+            <element signature="n#bean#1;n#beans#0;n#!!top" />
+            <element signature="n#bean#2;n#beans#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/pojo/Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -761,7 +744,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.27686915" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
