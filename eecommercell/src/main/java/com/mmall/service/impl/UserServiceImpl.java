@@ -4,6 +4,7 @@ import com.mmall.common.ServletResponse;
 import com.mmall.dao.UserMapper;
 import com.mmall.pojo.User;
 import com.mmall.service.IUserService;
+import com.mmall.util.MD5Util;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -20,22 +21,22 @@ public class UserServiceImpl implements IUserService {
         if(resultCount == 0){
             return ServletResponse.createByErrorMessage("该用户不存在");
         }
-
         //todo 密码登录MD5
+        String mdPassword = MD5Util.MD5EncodeUtf8(password);
+        User user = userMapper.selectLogin(username,mdPassword);
 
-        User user = userMapper.selectLogin(username,password);
         if(user == null){
-
             return ServletResponse.createByErrorMessage("密码错误");
         }
-
-
         //将其密码置为空
         user.setPassword(org.apache.commons.lang3.StringUtils.EMPTY);
-
-
         return ServletResponse.createBySuccess("登陆成功",user);
-
-
     }
+
+
+
+
+
+
+
 }
