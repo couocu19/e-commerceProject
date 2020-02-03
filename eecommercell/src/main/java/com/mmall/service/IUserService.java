@@ -11,4 +11,8 @@ public interface IUserService {
     ServletResponse<String> register(User user);
 
     ServletResponse<String> checkVaild(String str,String type);
+
+    ServletResponse forgetGetQuestion(String username);
+
+    ServletResponse<String> checkQuestion(String username,String question,String answer);
 }

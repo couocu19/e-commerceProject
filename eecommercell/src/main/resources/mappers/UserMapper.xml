@@ -163,7 +163,22 @@
     where email = #{email}
 
   </select>
-  
+
+  <select id="checkQuestionByUsername" resultType="string" parameterType="string">
+    select question
+    from
+    mmall_user
+    where username = #{username}
+  </select>
+
+  <select id="checkQuestion" resultType="int" parameterType="map">
+    select count(1) from mmall_user
+    where username = #{username}
+    and question = #{question}
+    and answer = #{answer}
+  </select>
+
+
   <select id="selectLogin" resultMap="BaseResultMap" parameterType="map">
     select
     <include refid="Base_Column_List"/>

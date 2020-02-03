@@ -61,4 +61,35 @@ public class UserController {
         return iUserService.checkVaild(str,type);
     }
 
+
+    //获取用户信息的接口
+    @RequestMapping(value = "check_user_info.do",method = RequestMethod.GET)
+    @ResponseBody
+    public ServletResponse<User> getUserInfo(HttpSession session){
+        User user = (User) session.getAttribute(Const.CURRENT_USER);
+        if(user!=null){
+            return ServletResponse.createBySuccess();
+        }
+        return ServletResponse.createByErrorMessage("用户未登录，无法获取用户当前的信息");
+    }
+
+
+    @RequestMapping(value = "forget_get_question.do",method = RequestMethod.GET)
+    @ResponseBody
+    public ServletResponse<String> forgetGetQuestion(String username){
+
+        return iUserService.forgetGetQuestion(username);
+
+    }
+
+
+    @RequestMapping(value = "forget_check_answer.do",method = RequestMethod.GET)
+    @ResponseBody
+    public ServletResponse<String> forgetCheckAnswer(String username,String question,String answer){
+
+        return iUserService.checkQuestion(username,question,answer);
+
+    }
+
+
 }
