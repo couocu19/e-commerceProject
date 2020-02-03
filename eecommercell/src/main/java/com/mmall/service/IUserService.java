@@ -8,5 +8,7 @@ public interface IUserService {
 
     ServletResponse<User> login(String username, String password);
 
+    ServletResponse<String> register(User user);
 
+    ServletResponse<String> checkVaild(String str,String type);
 }

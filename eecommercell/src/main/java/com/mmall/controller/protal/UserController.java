@@ -44,9 +44,21 @@ public class UserController {
 
     }
 
+
+    //注册接口
+    @RequestMapping(value = "register.do",method = RequestMethod.GET)
+    @ResponseBody
     public ServletResponse<String> register(User user){
 
-        return null;
+        return iUserService.register(user);
+    }
+
+    //校验接口
+    @RequestMapping(value = "check_vaild.do",method = RequestMethod.GET)
+    @ResponseBody
+    public ServletResponse<String> checkVaild(String str,String type){
+
+        return iUserService.checkVaild(str,type);
     }
 
 }
