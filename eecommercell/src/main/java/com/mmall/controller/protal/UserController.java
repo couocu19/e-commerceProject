@@ -91,5 +91,9 @@ public class UserController {
 
     }
 
+    public ServletResponse<String> forgetResetPassword(String username,String passwordNew,String forgetToken){
+
+        return null;
+    }
 
 }
