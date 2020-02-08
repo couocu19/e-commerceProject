@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc201766-b3d3-4d23-a000-77d9e87614a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/controller/protal/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/controller/protal/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/dao/UserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/service/IUserService.java" afterDir="false" />
@@ -44,11 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/controller/protal/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="123" selection-start-line="123" selection-end-line="123" />
+            <state relative-caret-position="408">
+              <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#login#0;class#UserController#0" />
@@ -92,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/service/IUserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="20" column="91" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="91" />
+            <state relative-caret-position="290">
+              <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="177" column="8" selection-start-line="177" selection-start-column="8" selection-end-line="177" selection-end-column="8" />
+            <state relative-caret-position="252">
+              <caret line="172" column="61" selection-start-line="172" selection-start-column="11" selection-end-line="172" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#login#0;class#UserServiceImpl#0" />
@@ -123,8 +122,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/dao/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="290">
+              <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,8 +134,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eecommercell/src/main/resources/mappers/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="199" column="4" selection-start-line="199" selection-start-column="4" selection-end-line="199" selection-end-column="4" />
+            <state relative-caret-position="186">
+              <caret line="208" selection-start-line="208" selection-end-line="208" />
               <folding>
                 <element signature="n#resultMap#0;n#mapper#0;n#!!top" />
               </folding>
@@ -195,11 +194,11 @@
         <option value="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/common/Const.java" />
         <option value="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/common/TokenCatche.java" />
         <option value="$PROJECT_DIR$/eecommercell/pom.xml" />
-        <option value="$PROJECT_DIR$/eecommercell/src/main/resources/mappers/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/service/IUserService.java" />
         <option value="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/dao/UserMapper.java" />
-        <option value="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/controller/protal/UserController.java" />
+        <option value="$PROJECT_DIR$/eecommercell/src/main/resources/mappers/UserMapper.xml" />
         <option value="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/controller/protal/UserController.java" />
       </list>
     </option>
   </component>
@@ -541,12 +540,12 @@
       <workItem from="1580914011561" duration="1163000" />
       <workItem from="1581061042765" duration="581000" />
       <workItem from="1581069503356" duration="666000" />
-      <workItem from="1581164945797" duration="6622000" />
+      <workItem from="1581164945797" duration="8298000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67129000" />
+    <option name="totallyTimeSpent" value="68805000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -558,7 +557,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24818109" />
@@ -835,50 +834,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eecommercell/src/main/resources/mappers/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="199" column="4" selection-start-line="199" selection-start-column="4" selection-end-line="199" selection-end-column="4" />
+        <state relative-caret-position="186">
+          <caret line="208" selection-start-line="208" selection-end-line="208" />
           <folding>
             <element signature="n#resultMap#0;n#mapper#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/service/IUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="20" column="91" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="91" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/dao/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="290">
+          <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/controller/protal/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#login#0;class#UserController#0" />
-            <element signature="method#logout#0;class#UserController#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="177" column="8" selection-start-line="177" selection-start-column="8" selection-end-line="177" selection-end-column="8" />
+        <state relative-caret-position="252">
+          <caret line="172" column="61" selection-start-line="172" selection-start-column="11" selection-end-line="172" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#login#0;class#UserServiceImpl#0" />
@@ -888,6 +865,28 @@
             <element signature="method#checkQuestion#0;class#UserServiceImpl#0" />
             <element signature="method#forgetResetPassword#0;class#UserServiceImpl#0" />
             <element signature="method#resetPassword#0;class#UserServiceImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/controller/protal/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#login#0;class#UserController#0" />
+            <element signature="method#logout#0;class#UserController#0" />
           </folding>
         </state>
       </provider>

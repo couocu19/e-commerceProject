@@ -18,7 +18,6 @@ public class UserServiceImpl implements IUserService {
 
     @Autowired
     private UserMapper userMapper;
-
     @Override
     public ServletResponse<User> login(String username, String password) {
         int resultCount = userMapper.checkUsername(username);
@@ -38,8 +37,6 @@ public class UserServiceImpl implements IUserService {
         user.setPassword(org.apache.commons.lang3.StringUtils.EMPTY);
         return ServletResponse.createBySuccess("登陆成功",user);
     }
-
-
     public ServletResponse<String> register(User user){
         //注册时首先校验用户名和email是否已经存在
         ServletResponse vaildResponse = this.checkVaild(user.getUsername(),Const.USERNAME);
@@ -122,7 +119,6 @@ public class UserServiceImpl implements IUserService {
 
     }
 
-
     public ServletResponse<String> forgetResetPassword(String username,String passwordNew,String forgetToken){
 
         if(StringUtils.isNoneBlank(forgetToken)){
@@ -175,7 +171,33 @@ public class UserServiceImpl implements IUserService {
     }
 
     public ServletResponse<User> updateInformation(User user){
-        
+
+        //username不能修改
+        //校验email：校验当前email在数据库中是不是已经存在，如果存在这个email不能为当前用户所用
+
+        String email = user.getEmail();
+        Integer id = user.getId();
+        int rowCount = userMapper.checkEmailByUserId(email,id);
+        if(rowCount>0){
+            return ServletResponse.createByErrorMessage("当前email已经存在!请更换email后再尝试更新");
+        }
+
+        User updateUser = new User();
+
+        updateUser.setId(id);
+        updateUser.setEmail(email);
+        updateUser.setPhone(user.getPhone());
+        updateUser.setQuestion(user.getQuestion());
+        updateUser.setAnswer(user.getAnswer());
+
+        int updateCount = userMapper.updateByPrimaryKey(updateUser);
+
+        if(updateCount>0){
+
+            return ServletResponse.createBySuccess("更新信息成功",updateUser);
+        }
+
+        return ServletResponse.createByErrorMessage("更新信息失败!");
 
 
     }

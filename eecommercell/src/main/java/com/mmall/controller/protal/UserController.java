@@ -115,20 +115,26 @@ public class UserController {
         return iUserService.resetPassword(user,passwordOld,passwordNew);
     }
 
-
-    public ServletResponse<User> updateInformation(HttpSession session,User user){
+    @RequestMapping(value = "update_information.do",method = RequestMethod.GET)
+    @ResponseBody
+    public ServletResponse<User> update_information(HttpSession session,User user){
         User currentUser = (User)session.getAttribute(Const.CURRENT_USER);
         if(currentUser == null){
             return ServletResponse.createByErrorMessage("用户未登录");
         }
 
+        //用户的id和username不能更改
         user.setId(currentUser.getId());
+        user.setUsername(currentUser.getUsername());
 
+        ServletResponse<User> response = iUserService.updateInformation(user);
 
+        //如果更新信息成功，就要更新session域中的user的信息
+        if(response.isSuccess()){
+            session.setAttribute(Const.CURRENT_USER,response.getData());
+        }
 
-
-
-
+        return response;
 
     }
 }

@@ -20,4 +20,5 @@ public interface IUserService {
 
     ServletResponse<String> resetPassword(User user,String passwordOld,String passwordNew);
 
+    ServletResponse<User> updateInformation(User user);
 }
