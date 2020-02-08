@@ -15,4 +15,9 @@ public interface IUserService {
     ServletResponse forgetGetQuestion(String username);
 
     ServletResponse<String> checkQuestion(String username,String question,String answer);
+
+    ServletResponse<String> forgetResetPassword(String username,String passwordNew,String forgetToken);
+
+    ServletResponse<String> resetPassword(User user,String passwordOld,String passwordNew);
+
 }

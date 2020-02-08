@@ -91,9 +91,44 @@ public class UserController {
 
     }
 
+
+    //忘记密码前提下的重置密码
+    @RequestMapping(value = "forget_reset_password.do",method = RequestMethod.GET)
+    @ResponseBody
     public ServletResponse<String> forgetResetPassword(String username,String passwordNew,String forgetToken){
 
-        return null;
+        return iUserService.forgetResetPassword(username,passwordNew,forgetToken);
     }
 
+
+
+    //在已经登录状态下的重置密码
+    @RequestMapping(value = "reset_password.do",method = RequestMethod.GET)
+    @ResponseBody
+    public ServletResponse<String> resetPassword(HttpSession session,String passwordNew,String passwordOld){
+
+        User user = (User) session.getAttribute(Const.CURRENT_USER);
+
+        if(user == null){
+            return ServletResponse.createByErrorMessage("用户未登录");
+        }
+        return iUserService.resetPassword(user,passwordOld,passwordNew);
+    }
+
+
+    public ServletResponse<User> updateInformation(HttpSession session,User user){
+        User currentUser = (User)session.getAttribute(Const.CURRENT_USER);
+        if(currentUser == null){
+            return ServletResponse.createByErrorMessage("用户未登录");
+        }
+
+        user.setId(currentUser.getId());
+
+
+
+
+
+
+
+    }
 }
