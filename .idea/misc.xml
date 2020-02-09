@@ -8,6 +8,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/eecommercell/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -18,6 +19,7 @@
         <option value="$PROJECT_DIR$/e-ecommereee/pom.xml" />
         <option value="$PROJECT_DIR$/eee/pom.xml" />
         <option value="$PROJECT_DIR$/ezz/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/sds/pom.xml" />
       </set>
     </option>

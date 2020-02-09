@@ -10,6 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="e-commerce" target="1.5" />
       <module name="ecommerces" target="1.5" />
       <module name="eecommereee" target="1.5" />
       <module name="eee" target="1.5" />

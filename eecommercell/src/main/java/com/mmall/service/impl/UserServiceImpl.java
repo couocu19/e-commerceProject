@@ -177,6 +177,7 @@ public class UserServiceImpl implements IUserService {
 
         String email = user.getEmail();
         Integer id = user.getId();
+
         int rowCount = userMapper.checkEmailByUserId(email,id);
         if(rowCount>0){
             return ServletResponse.createByErrorMessage("当前email已经存在!请更换email后再尝试更新");
@@ -199,6 +200,19 @@ public class UserServiceImpl implements IUserService {
 
         return ServletResponse.createByErrorMessage("更新信息失败!");
 
+
+    }
+
+    public ServletResponse<User> get_information(Integer userId){
+
+        User user = userMapper.selectByPrimaryKey(userId);
+        if(user == null){
+            return ServletResponse.createByErrorMessage("找不到当前用户");
+        }
+
+        user.setPassword(StringUtils.EMPTY);
+
+        return ServletResponse.createBySuccess(user);
 
     }
 

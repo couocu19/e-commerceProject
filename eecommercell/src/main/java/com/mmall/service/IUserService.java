@@ -21,4 +21,6 @@ public interface IUserService {
     ServletResponse<String> resetPassword(User user,String passwordOld,String passwordNew);
 
     ServletResponse<User> updateInformation(User user);
+
+    ServletResponse<User> get_information(Integer userId);
 }
