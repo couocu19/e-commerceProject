@@ -133,7 +133,7 @@
         create_time = #{createTime,jdbcType=TIMESTAMP},
       </if>
       <if test="updateTime != null" >
-        now(),
+        update_time = now(),
       </if>
     </set>
     where id = #{id,jdbcType=INTEGER}
@@ -147,8 +147,7 @@
       question = #{question,jdbcType=VARCHAR},
       answer = #{answer,jdbcType=VARCHAR},
       role = #{role,jdbcType=INTEGER},
-      create_time = #{createTime,jdbcType=TIMESTAMP},
-        now()
+      create_time = now()
     where id = #{id,jdbcType=INTEGER}
   </update>
 

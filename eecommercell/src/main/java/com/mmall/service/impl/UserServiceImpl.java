@@ -29,6 +29,7 @@ public class UserServiceImpl implements IUserService {
         //todo 密码登录MD5
         String mdPassword = MD5Util.MD5EncodeUtf8(password);
         User user = userMapper.selectLogin(username,mdPassword);
+        System.out.println(mdPassword);
 
         if(user == null){
             return ServletResponse.createByErrorMessage("密码错误");
@@ -121,7 +122,7 @@ public class UserServiceImpl implements IUserService {
 
     public ServletResponse<String> forgetResetPassword(String username,String passwordNew,String forgetToken){
 
-        if(StringUtils.isNoneBlank(forgetToken)){
+        if(StringUtils.isBlank(forgetToken)){
             return ServletResponse.createByErrorMessage("参数错误,token需要传递");
         }
 
@@ -161,7 +162,7 @@ public class UserServiceImpl implements IUserService {
             return ServletResponse.createByErrorMessage("旧密码错误");
         }
         user.setPassword(MD5Util.MD5EncodeUtf8(passwordNew));
-        int rowCount1 = userMapper.updateByPrimaryKey(user);
+        int rowCount1 = userMapper.updateByPrimaryKeySelective(user);
         if(rowCount1>0){
             return ServletResponse.createBySuccessMessage("修改密码成功");
         }

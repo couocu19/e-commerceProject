@@ -64,12 +64,12 @@ public class UserController {
     }
 
     //获取用户信息的接口
-    @RequestMapping(value = "check_user_info.do",method = RequestMethod.POST)
+    @RequestMapping(value = "get_user_info.do",method = RequestMethod.POST)
     @ResponseBody
     public ServletResponse<User> getUserInfo(HttpSession session){
         User user = (User) session.getAttribute(Const.CURRENT_USER);
         if(user!=null){
-            return ServletResponse.createBySuccess();
+            return ServletResponse.createBySuccess(user);
         }
         return ServletResponse.createByErrorMessage("用户未登录，无法获取用户当前的信息");
     }

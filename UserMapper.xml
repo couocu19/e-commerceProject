@@ -36,7 +36,7 @@
     values (#{id,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
       #{email,jdbcType=VARCHAR}, #{phone,jdbcType=VARCHAR}, #{question,jdbcType=VARCHAR}, 
       #{answer,jdbcType=VARCHAR}, #{role,jdbcType=INTEGER}, now(),
-            now())
+      now())
   </insert>
   <insert id="insertSelective" parameterType="com.mmall.pojo.User" >
     insert into mmall_user
@@ -147,67 +147,72 @@
       question = #{question,jdbcType=VARCHAR},
       answer = #{answer,jdbcType=VARCHAR},
       role = #{role,jdbcType=INTEGER},
-      create_time = now()
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      update_time = now()
     where id = #{id,jdbcType=INTEGER}
   </update>
-
-  <select id="checkUsername"  resultType="int"  parameterType="string">
+  
+  
+  <select id="checkUsername" resultType="int" parameterType="string" >
     select count(1) from mmall_user
     where username = #{username}
-
   </select>
 
-  <select id="checkEmail" resultType="int" parameterType="string">
+  <select id="checkEmail" resultType="int" parameterType="string" >
     select count(1) from mmall_user
     where email = #{email}
-
-  </select>
-
-  <select id="checkQuestionByUsername" resultType="string" parameterType="string">
-    select question
-    from
-    mmall_user
-    where username = #{username}
-  </select>
-
-  <select id="checkQuestion" resultType="int" parameterType="map">
-    select count(1) from mmall_user
-    where username = #{username}
-    and question = #{question}
-    and answer = #{answer}
   </select>
 
 
   <select id="selectLogin" resultMap="BaseResultMap" parameterType="map">
-    select
-    <include refid="Base_Column_List"/>
+    SELECT
+--     *???//这样真的好么?答案就是,这样不好.
+    <include refid="Base_Column_List" />
     from mmall_user
     where username = #{username}
     and password = #{password}
+  </select>
+
+
+  <select id="selectQuestionByUsername" resultType="string" parameterType="string">
+    select
+    question
+    from mmall_user
+    where username = #{username}
+  </select>
+
+  <select id="checkAnswer" resultType="int" parameterType="map">
+    SELECT
+    count(1)
+    from mmall_user
+    where username=#{username}
+    and question = #{question}
+    and answer = #{answer}
   </select>
 
   <update id="updatePasswordByUsername" parameterType="map">
     update mmall_user
-    set password = #{passwordNew},update_time = now()
+    SET password = #{passwordNew},update_time = now()
     where username = #{username}
   </update>
 
-  <select id="checkPassword" parameterType="map" resultType="int">
-    select count(1)
+  <select id="checkPassword" resultType="int" parameterType="map">
+    SELECT
+    count(1)
     from mmall_user
-    where id = #{userId}
-    and password = #{password}
-
+    where password = #{password}
+    and id = #{userId}
   </select>
 
 
-  <select id="checkEmailByUserId" parameterType="map" resultType="int">
+  <select id="checkEmailByUserId" resultType="int" parameterType="map">
     select count(1) from mmall_user
     where email = #{email}
     and id != #{userId}
-
   </select>
 
 
-  
+
+
+
 </mapper>
