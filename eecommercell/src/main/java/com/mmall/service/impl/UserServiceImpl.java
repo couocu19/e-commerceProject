@@ -8,6 +8,7 @@ import com.mmall.pojo.User;
 import com.mmall.service.IUserService;
 import com.mmall.util.MD5Util;
 import org.apache.commons.lang3.StringUtils;
+import org.omg.PortableServer.SERVANT_RETENTION_POLICY_ID;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -81,16 +82,11 @@ public class UserServiceImpl implements IUserService {
                 if(resultCount > 0){
                     return ServletResponse.createByErrorMessage("email已存在！");
                 }
-
             }
-
         }else{
-
             return ServletResponse.createByErrorMessage("参数错误");
         }
-
         return ServletResponse.createBySuccessMessage("校验成功！");
-
     }
 
     public ServletResponse forgetGetQuestion(String username){
@@ -188,11 +184,12 @@ public class UserServiceImpl implements IUserService {
 
         updateUser.setId(id);
         updateUser.setEmail(email);
+
         updateUser.setPhone(user.getPhone());
         updateUser.setQuestion(user.getQuestion());
         updateUser.setAnswer(user.getAnswer());
 
-        int updateCount = userMapper.updateByPrimaryKey(updateUser);
+        int updateCount = userMapper.updateByPrimaryKeySelective(updateUser);
 
         if(updateCount>0){
 
@@ -217,6 +214,12 @@ public class UserServiceImpl implements IUserService {
 
     }
 
+    public ServletResponse<String> check_admin_role(User user){
+        if(user!=null && user.getRole().intValue() == Const.Role.ROLE_ADMIN){
+            return ServletResponse.createBySuccess();
+        }
+        return ServletResponse.createByError();
+    }
 
 
 

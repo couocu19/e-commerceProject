@@ -23,4 +23,6 @@ public interface IUserService {
     ServletResponse<User> updateInformation(User user);
 
     ServletResponse<User> get_information(Integer userId);
+
+    ServletResponse<String> check_admin_role(User user);
 }
