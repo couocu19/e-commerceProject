@@ -4,6 +4,7 @@ import com.mmall.common.Const;
 import com.mmall.common.ResponseCode;
 import com.mmall.common.ServletResponse;
 import com.mmall.dao.CategoryMapper;
+import com.mmall.pojo.Category;
 import com.mmall.pojo.User;
 import com.mmall.service.ICategoryService;
 import com.mmall.service.IUserService;
@@ -15,6 +16,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpSession;
 import java.io.Serializable;
+import java.util.List;
 
 @Controller
 @RequestMapping(("/manage/category"))
@@ -47,9 +49,9 @@ public class CategoryMangeController {
     }
 
 
-    @RequestMapping("update_category_name.do")
+    @RequestMapping("set_category_name.do")
     @ResponseBody
-    public ServletResponse<String> updateCategoryName(HttpSession session,String categoryName,Integer categoryId){
+    public ServletResponse<String> setCategoryName(HttpSession session,String categoryName,Integer categoryId){
         User user = (User)session.getAttribute(Const.CURRENT_USER);
         if(user == null){
             return ServletResponse.createByErrorCodeMessage(ResponseCode.NEED_LOGIN.getCode(),"用户未登录！");
@@ -57,11 +59,35 @@ public class CategoryMangeController {
 
         if(iUserService.check_admin_role(user).isSuccess()){
 
-            return iCategoryService.updateCategoryName(categoryName,categoryId);
+            return iCategoryService.setCategoryName(categoryName,categoryId);
         }else{
 
             return ServletResponse.createByErrorMessage("不是管理员，没有操作权限！");
         }
-        
+
+    }
+
+
+    @RequestMapping("get_children_parallel_category.do")
+    @ResponseBody
+    public ServletResponse<List<Category>> getChildrenParallelCategory(HttpSession session,@RequestParam(name = "categoryId",defaultValue = "0") Integer categoryId){
+
+
+        User user = (User)session.getAttribute(Const.CURRENT_USER);
+        if(user == null){
+            return ServletResponse.createByErrorCodeMessage(ResponseCode.NEED_LOGIN.getCode(),"用户未登录！");
+        }
+
+        if(iUserService.check_admin_role(user).isSuccess()){
+
+            return iCategoryService.getChildrenParallelCategory(categoryId);
+
+
+        }else{
+
+            return ServletResponse.createByErrorMessage("不是管理员，没有操作权限！");
+        }
+
+
     }
 }
