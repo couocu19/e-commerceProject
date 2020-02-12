@@ -11,6 +11,9 @@ public interface ICategoryService {
 
     ServletResponse<String> setCategoryName(String categoryName,Integer categoryId);
 
-
     ServletResponse<List<Category>> getChildrenParallelCategory(Integer categoryId);
+
+    ServletResponse<List<Integer>> selectCategoryAndChildrenCategory(Integer categoryId);
+
+
 }
