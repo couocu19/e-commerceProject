@@ -6,6 +6,10 @@ public class Const {
     public static final String USERNAME = "username";
     public static final String EMAIL = "email";
 
+    public static final String EMAIL1 = "email";
+
+
+
     //给常量做一个分组
     public interface Role{
 

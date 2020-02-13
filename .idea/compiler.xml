@@ -17,6 +17,7 @@
       <module name="eeeee" target="1.5" />
       <module name="ezz" target="1.5" />
       <module name="sds" target="1.5" />
+      <module name="ssm-project" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

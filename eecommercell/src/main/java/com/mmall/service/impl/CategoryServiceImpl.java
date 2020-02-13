@@ -59,7 +59,7 @@ public class CategoryServiceImpl implements ICategoryService {
         if(rowCount>0){
             return ServletResponse.createBySuccess("品类信息更新成功！");
         }
-        
+
         return ServletResponse.createByErrorMessage("品类信息更新失败");
     }
 
