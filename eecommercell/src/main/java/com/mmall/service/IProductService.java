@@ -1,7 +1,9 @@
 package com.mmall.service;
 
+import com.github.pagehelper.PageInfo;
 import com.mmall.common.ServletResponse;
 import com.mmall.pojo.Product;
+import com.mmall.vo.ProductDetailVo;
 
 public interface IProductService {
 
@@ -9,4 +11,7 @@ public interface IProductService {
 
     ServletResponse setStatus(Integer productId,Integer status);
 
+    ServletResponse<ProductDetailVo> manageProductDetail(Integer productId);
+
+    ServletResponse<PageInfo> getProductList(int pageNum, int pageSize)
 }

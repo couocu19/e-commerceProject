@@ -7,8 +7,6 @@ public class Const {
     public static final String EMAIL = "email";
 
 
-
-
     //给常量做一个分组
     public interface Role{
 

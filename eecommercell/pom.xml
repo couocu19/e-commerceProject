@@ -221,25 +221,12 @@
             <version>2.4.0</version>
         </dependency>
 
-        <!--&lt;!&ndash; https://mvnrepository.com/artifact/org.codehaus.jackson/jackson-mapper-asl &ndash;&gt;-->
-        <!--<dependency>-->
-            <!--<groupId>org.codehaus.jackson</groupId>-->
-            <!--<artifactId>jackson-mapper-asl</artifactId>-->
-            <!--<version>1.9.11</version>-->
-        <!--</dependency>-->
-
-        <!--&lt;!&ndash; https://mvnrepository.com/artifact/org.codehaus.jackson/jackson-mapper-lgpl &ndash;&gt;-->
-        <!--<dependency>-->
-            <!--<groupId>org.codehaus.jackson</groupId>-->
-            <!--<artifactId>jackson-mapper-lgpl</artifactId>-->
-            <!--<version>1.9.11</version>-->
-        <!--</dependency>-->
-
 
     </dependencies>
 
     <build>
         <finalName>eecommercell</finalName>
+
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
             <plugins>
 
@@ -281,6 +268,7 @@
                 <overwrite>true</overwrite>
             </configuration>
         </plugin>
+
         <plugin>
             <artifactId>maven-clean-plugin</artifactId>
             <version>3.1.0</version>
