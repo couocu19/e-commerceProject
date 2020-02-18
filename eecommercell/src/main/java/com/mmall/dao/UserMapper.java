@@ -2,6 +2,8 @@ package com.mmall.dao;
 
 import com.mmall.pojo.User;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Component;
+
 
 
 public interface UserMapper {

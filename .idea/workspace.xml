@@ -7,24 +7,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc201766-b3d3-4d23-a000-77d9e87614a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/util/DateTimeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/util/PropertiesUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/vo/CartProductVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/vo/CartVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/vo/OrderItemVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/vo/OrderProductVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/vo/OrderVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/vo/ProductDetailVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/vo/ProductListVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/vo/ShippingVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/service/IFileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/service/impl/IFileServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/util/BigDecimalUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/util/FTPUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eecommercell/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/common/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/common/Const.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/common/ResponseCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/common/ResponseCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/controller/backend/ProductManageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/controller/backend/ProductManageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/controller/protal/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/controller/protal/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/dao/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/dao/ProductMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/dao/UserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/service/IProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/service/impl/ProductServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eecommercell/src/main/resources/mappers/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/resources/mappers/ProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/src/main/resources/mmall.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/resources/mmall.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/META-INF/eecommercell.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/META-INF/eecommercell.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/common/ResponseCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/common/ResponseCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/controller/protal/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/controller/protal/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/dao/ProductMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/dao/ProductMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/mappers/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/mappers/ProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/mmall.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/mmall.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/eecommercell/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/eecommercell/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/eecommercell/WEB-INF/classes/META-INF/eecommercell.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/eecommercell/WEB-INF/classes/META-INF/eecommercell.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/eecommercell/WEB-INF/classes/com/mmall/common/ResponseCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/eecommercell/WEB-INF/classes/com/mmall/common/ResponseCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/eecommercell/WEB-INF/classes/com/mmall/controller/protal/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/eecommercell/WEB-INF/classes/com/mmall/controller/protal/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/eecommercell/WEB-INF/classes/com/mmall/dao/ProductMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/eecommercell/WEB-INF/classes/com/mmall/dao/ProductMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/eecommercell/WEB-INF/classes/mappers/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/eecommercell/WEB-INF/classes/mappers/ProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/eecommercell/WEB-INF/classes/mmall.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/eecommercell/WEB-INF/classes/mmall.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/eecommercell/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/eecommercell/index.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +115,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581520435762" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/eecommercell" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ssm/day02_mybatis" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -111,23 +124,24 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.1541502" />
     <property name="project.structure.side.proportion" value="0.24649532" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\ssm-project\eecommercell\src\main\webapp" />
-      <recent name="D:\ssm-project\eecommercell\src\main\webapp\WEB-INF" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mmall.controller.protal" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\ssm-project\eecommercell\src\main\java\com\mmall\common" />
       <recent name="D:\ssm-project\eecommercell\src\main\java\com\mmall\util" />
       <recent name="D:\ssm-project\eecommercell\src\main\resources" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.mmall.controller.protal" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ssm-project\eecommercell\src\main\webapp" />
+      <recent name="D:\ssm-project\eecommercell\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -414,7 +428,12 @@
       <workItem from="1581771778601" duration="127000" />
       <workItem from="1581772621197" duration="1342000" />
       <workItem from="1581815878044" duration="345000" />
-      <workItem from="1581848552641" duration="5873000" />
+      <workItem from="1581848552641" duration="12059000" />
+      <workItem from="1581904114302" duration="22000" />
+      <workItem from="1581910719974" duration="122000" />
+      <workItem from="1581911012863" duration="19000" />
+      <workItem from="1582018357800" duration="6360000" />
+      <workItem from="1582024859768" duration="1123000" />
     </task>
     <servers />
   </component>
@@ -459,89 +478,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor>
-            <show-content>
-              <type id="artifact" />
-              <type id="javaee-facet-resources" />
-              <type id="library" />
-              <type id="jpa-descriptors" />
-            </show-content>
-          </artifact-editor>
-          <last-edited>eecommercell:war exploded</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.24649532" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>eecommercell</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.24649532" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: com.fasterxml.jackson.core:jackson-annotations:2.5.0</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.24649532" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

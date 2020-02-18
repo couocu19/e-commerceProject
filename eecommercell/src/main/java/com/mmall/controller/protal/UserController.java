@@ -51,7 +51,6 @@ public class UserController {
     @RequestMapping(value = "register.do",method = RequestMethod.POST)
     @ResponseBody
     public ServletResponse<String> register(User user){
-
         return iUserService.register(user);
     }
 

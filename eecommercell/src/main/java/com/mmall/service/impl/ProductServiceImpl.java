@@ -139,6 +139,7 @@ public class ProductServiceImpl implements IProductService {
             ProductListVo productListVo = assembleProductListVo(product) ;
             resultList.add(productListVo);
         }
+
         //pageHelper收尾
         PageInfo pageInfo = new PageInfo(selectList);
         pageInfo.setList(resultList);
@@ -159,6 +160,27 @@ public class ProductServiceImpl implements IProductService {
         productListVo.setSubtitle(product.getSubtitle());
 
         return productListVo;
+
+    }
+
+
+    public ServletResponse<PageInfo> searchProduct(Integer productId,String productName,int pageNum,int pageSize){
+        PageHelper.startPage(pageNum,pageSize);
+        if(StringUtils.isNotBlank(productName)){
+            productName = new StringBuilder().append("%").append(productName).append("%").toString();
+        }
+
+        List<Product> selectList = productMapper.selectListNyProductInAndProductName(productId,productName);
+        List<ProductListVo> resultList = new ArrayList<>();
+        for(Product product:selectList) {
+            ProductListVo productListVo = assembleProductListVo(product);
+            resultList.add(productListVo);
+        }
+
+        //pageHelper收尾
+        PageInfo pageInfo = new PageInfo(selectList);
+        pageInfo.setList(resultList);
+        return ServletResponse.createBySuccess(pageInfo);
 
     }
 
