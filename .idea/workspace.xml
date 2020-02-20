@@ -7,37 +7,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc201766-b3d3-4d23-a000-77d9e87614a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/service/IFileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/service/impl/IFileServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/util/BigDecimalUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/util/FTPUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/controller/protal/ProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eecommercell/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/common/ResponseCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/common/ResponseCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/controller/backend/ProductManageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/controller/backend/ProductManageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/controller/protal/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/controller/protal/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/common/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/common/Const.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/dao/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/dao/ProductMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/dao/UserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/service/IProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/service/impl/ProductServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eecommercell/src/main/resources/mappers/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/resources/mappers/ProductMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eecommercell/src/main/resources/mmall.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/resources/mmall.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eecommercell/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/META-INF/eecommercell.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/META-INF/eecommercell.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/common/ResponseCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/common/ResponseCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/controller/protal/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/controller/protal/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/META-INF/eecommercell.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/common/Const.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/common/Const.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/controller/protal/UserController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/dao/ProductMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/dao/ProductMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/service/IProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/service/IProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/service/impl/ProductServiceImpl.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/mappers/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/mappers/ProductMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/mmall.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/mmall.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eecommercell/target/eecommercell/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/eecommercell/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eecommercell/target/eecommercell/WEB-INF/classes/META-INF/eecommercell.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/eecommercell/WEB-INF/classes/META-INF/eecommercell.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eecommercell/target/eecommercell/WEB-INF/classes/com/mmall/common/ResponseCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/eecommercell/WEB-INF/classes/com/mmall/common/ResponseCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eecommercell/target/eecommercell/WEB-INF/classes/com/mmall/controller/protal/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/eecommercell/WEB-INF/classes/com/mmall/controller/protal/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eecommercell/target/eecommercell/WEB-INF/classes/com/mmall/dao/ProductMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/eecommercell/WEB-INF/classes/com/mmall/dao/ProductMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eecommercell/target/eecommercell/WEB-INF/classes/mappers/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/eecommercell/WEB-INF/classes/mappers/ProductMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eecommercell/target/eecommercell/WEB-INF/classes/mmall.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/eecommercell/WEB-INF/classes/mmall.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eecommercell/target/eecommercell/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/eecommercell/index.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -205,7 +190,6 @@
       </method>
     </configuration>
     <configuration name="Tomcat 7.0.96" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.96" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/eecommercell_war_exploded/" />
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -433,7 +417,8 @@
       <workItem from="1581910719974" duration="122000" />
       <workItem from="1581911012863" duration="19000" />
       <workItem from="1582018357800" duration="6360000" />
-      <workItem from="1582024859768" duration="1123000" />
+      <workItem from="1582024859768" duration="2818000" />
+      <workItem from="1582203736987" duration="6289000" />
     </task>
     <servers />
   </component>
