@@ -37,7 +37,7 @@ public class ProductController {
 
 
         return iProductService.getList(keyWords,categoryId,pageNum,pageSize,orderBy);
-        
+
     }
 
 

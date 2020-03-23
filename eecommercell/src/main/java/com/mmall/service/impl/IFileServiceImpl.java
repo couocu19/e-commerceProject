@@ -33,7 +33,6 @@ public class IFileServiceImpl implements IFileService {
             fileDir.setWritable(true);
             fileDir.mkdirs();
         }
-
         File targetFile = new File(path,uploadFileName);
 
         try {

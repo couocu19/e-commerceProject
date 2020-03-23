@@ -28,7 +28,8 @@ import java.util.Map;
 
 @Controller
 @RequestMapping("manage/product")
-public class ProductManageController {
+public class
+ProductManageController {
 
     @Autowired
     private IUserService iUserService;

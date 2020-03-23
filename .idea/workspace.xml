@@ -7,22 +7,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc201766-b3d3-4d23-a000-77d9e87614a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/controller/protal/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/common/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/common/Const.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/dao/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/dao/ProductMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/service/IProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/controller/backend/ProductManageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/controller/backend/ProductManageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/controller/protal/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/controller/protal/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/service/impl/IFileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/service/impl/IFileServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eecommercell/src/main/resources/mappers/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/resources/mappers/ProductMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eecommercell/src/main/resources/mmall.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/resources/mmall.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/META-INF/eecommercell.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/util/DateTimeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/util/DateTimeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/common/Const$ProductListOrderBy.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/common/Const$ProductListOrderBy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/common/Const$ProductStatusEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/common/Const$ProductStatusEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/common/Const$Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/common/Const$Role.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/common/Const.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/common/Const.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/controller/protal/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/common/ResponseCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/common/ResponseCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/common/ServletResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/common/ServletResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/common/TokenCache$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/common/TokenCache$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/common/TokenCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/common/TokenCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/controller/backend/CategoryMangeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/controller/backend/CategoryMangeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/controller/backend/ProductManageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/controller/backend/ProductManageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/controller/backend/UserManageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/controller/backend/UserManageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/controller/protal/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/controller/protal/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/dao/CartMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/dao/CartMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/dao/CategoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/dao/CategoryMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/dao/OrderItemMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/dao/OrderItemMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/dao/OrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/dao/OrderMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/dao/PayInfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/dao/PayInfoMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/dao/ProductMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/dao/ProductMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/dao/ShippingMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/dao/ShippingMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/pojo/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/pojo/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/pojo/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/pojo/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/pojo/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/pojo/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/pojo/OrderItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/pojo/OrderItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/pojo/PayInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/pojo/PayInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/pojo/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/pojo/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/pojo/Shipping.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/pojo/Shipping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/service/ICategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/service/ICategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/service/IFileService.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/service/IFileService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/service/IProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/service/IProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/service/impl/ProductServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/mappers/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/mappers/ProductMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/mmall.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/mmall.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/service/IUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/service/IUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/service/impl/IFileServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/service/impl/IFileServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/service/impl/ProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/util/BigDecimalUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/util/BigDecimalUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/util/DateTimeUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/util/DateTimeUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/util/FTPUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/util/FTPUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/util/MD5Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/util/MD5Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/util/PropertiesUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/util/PropertiesUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/vo/CartProductVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/vo/CartProductVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/vo/CartVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/vo/CartVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/vo/OrderItemVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/vo/OrderItemVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/vo/OrderProductVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/vo/OrderProductVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/vo/OrderVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/vo/OrderVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/vo/ProductDetailVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/vo/ProductDetailVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/vo/ProductListVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/vo/ProductListVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/vo/ShippingVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/eecommercell/target/classes/com/mmall/vo/ShippingVo.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +141,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581520435762" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ssm/day02_mybatis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/eecommercell/src/main/java/com/mmall/service/impl" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -116,17 +157,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.mmall.controller.protal" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ssm-project\eecommercell\src\main\webapp" />
+      <recent name="D:\ssm-project\eecommercell\src\main\webapp\WEB-INF" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ssm-project\eecommercell\src\main\java\com\mmall\service\impl" />
+      <recent name="D:\ssm-project\eecommercell\src\main\java\com\mmall\controller\protal" />
       <recent name="D:\ssm-project\eecommercell\src\main\java\com\mmall\common" />
       <recent name="D:\ssm-project\eecommercell\src\main\java\com\mmall\util" />
       <recent name="D:\ssm-project\eecommercell\src\main\resources" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\ssm-project\eecommercell\src\main\webapp" />
-      <recent name="D:\ssm-project\eecommercell\src\main\webapp\WEB-INF" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mmall.controller.protal" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -418,7 +461,11 @@
       <workItem from="1581911012863" duration="19000" />
       <workItem from="1582018357800" duration="6360000" />
       <workItem from="1582024859768" duration="2818000" />
-      <workItem from="1582203736987" duration="6289000" />
+      <workItem from="1582203736987" duration="6695000" />
+      <workItem from="1582274264167" duration="210000" />
+      <workItem from="1583418782983" duration="82000" />
+      <workItem from="1583490096254" duration="96000" />
+      <workItem from="1584956978538" duration="2761000" />
     </task>
     <servers />
   </component>

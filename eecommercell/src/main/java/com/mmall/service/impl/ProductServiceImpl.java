@@ -21,8 +21,6 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.xml.ws.ServiceMode;
-import java.rmi.ServerError;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -34,11 +32,9 @@ public class ProductServiceImpl implements IProductService {
 
     @Autowired
     private CategoryMapper categoryMapper;
-
     //平级调用
     @Autowired
     private ICategoryService iCategoryService;
-
 
     public ServletResponse saveOrUpdateProduct(Product product){
         if(product!=null){
@@ -72,7 +68,6 @@ public class ProductServiceImpl implements IProductService {
     }
 
     public ServletResponse setStatus(Integer productId,Integer status){
-
         if(productId == null || status == null){
             return ServletResponse.createByErrorCodeMessage(ResponseCode.ILLEGAL_ARGUMENT.getCode(),ResponseCode.ILLEGAL_ARGUMENT.getDesc());
 
@@ -107,7 +102,6 @@ public class ProductServiceImpl implements IProductService {
         return ServletResponse.createBySuccess(productDetailVo);
     }
 
-
     //普通用户获取产品详细信息
     //首先需要判断该产品是否在线
     public ServletResponse<ProductDetailVo> getProductDetail(Integer productId){
@@ -125,15 +119,10 @@ public class ProductServiceImpl implements IProductService {
             return ServletResponse.createByErrorMessage("商品已下架或者被删除");
 
         }
-
         ProductDetailVo productDetailVo = assembleProductDetailVo(product);
-
         return ServletResponse.createBySuccess(productDetailVo);
 
     }
-
-
-
 
     private ProductDetailVo assembleProductDetailVo(Product product){
         ProductDetailVo productDetailVo = new ProductDetailVo();
@@ -205,19 +194,16 @@ public class ProductServiceImpl implements IProductService {
         if(StringUtils.isNotBlank(productName)){
             productName = new StringBuilder().append("%").append(productName).append("%").toString();
         }
-
         List<Product> selectList = productMapper.selectListNyProductInAndProductName(productId,productName);
         List<ProductListVo> resultList = new ArrayList<>();
         for(Product product:selectList) {
             ProductListVo productListVo = assembleProductListVo(product);
             resultList.add(productListVo);
         }
-
         //pageHelper收尾
         PageInfo pageInfo = new PageInfo(selectList);
         pageInfo.setList(resultList);
         return ServletResponse.createBySuccess(pageInfo);
-
     }
 
     public ServletResponse<PageInfo> getList(String keywords,Integer categoryId,int pageNum,int pageSize,String orderBy){
